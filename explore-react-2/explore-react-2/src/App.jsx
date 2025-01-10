@@ -1,6 +1,7 @@
 import "./App.css";
 import Counter from "./counter";
 import Team from "./team";
+import Users from "./user";
 
 function App() {
   function handleClick() {
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
       <h1>Core concept two</h1>
+      <Users></Users>
       <Team></Team>
 
       <Counter></Counter>
