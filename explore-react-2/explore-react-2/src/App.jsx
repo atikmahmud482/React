@@ -1,4 +1,5 @@
 import "./App.css";
+import Counter from "./counter";
 
 function App() {
   function handleClick() {
@@ -8,6 +9,8 @@ function App() {
   return (
     <>
       <h1>Core concept two</h1>
+
+      <Counter></Counter>
       {/* 1st option */}
       <button onClick={handleClick}>Click Me</button>
 
